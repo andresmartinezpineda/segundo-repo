@@ -1,0 +1,90 @@
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: oklch(37.21% 0.173 305.47);
+}
+
+main{
+    float: left;
+    margin: 170px 500px ;
+    background: white;
+    align-content: stretch;
+    width: 720px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+}
+
+section{
+    float: left;
+    width: 400px;
+    
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+#descriptive{
+    width: 300px;
+}
+
+p{
+    margin: 30px;
+    margin-bottom: 20px;
+}
+
+.img{
+    margin-left: 30px;  
+    padding-top: 10px;
+}
+
+small{
+    text-align: center;
+}
+form{
+    margin-top: 15px;
+}
+
+label{
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+input{
+    margin-left: 20px;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    background: oklch(66.67% 0.192 18.53 / 35.1%);
+    border-color: oklch(66.67% 0.2209 18.53);
+}
+
+button{
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 358px;
+    height: 35px;
+    border-radius: 5px;
+    background: oklch(37.21% 0.173 305.47);
+    color: white;
+}
+
+button:hover{
+    background: oklch(68.68% 0.178 36.53 / 96.46%);
+}
+
+aside{
+    float: left;
+
+}
+
+#imglateral{
+    height: 480px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
